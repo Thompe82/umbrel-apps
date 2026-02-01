@@ -1,0 +1,22 @@
+version: "3.7"
+services:
+  miningcore:
+    image: ://mcr.microsoft.com
+    container_name: bc2-miningcore
+    restart: on-failure
+    ports:
+      - "8083:8083"
+      - "4000:4000"
+    volumes:
+      - ${APP_DATA_DIR}/miningcore/build:/app/build
+      - ${APP_DATA_DIR}/miningcore/config:/app/config
+    command: ["dotnet", "/app/build/Miningcore.dll", "-c", "/app/config/config.json"]
+
+  miningcore-ui:
+    image: nginx:alpine
+    container_name: bc2-miningcore-ui
+    restart: on-failure
+    ports:
+      - "8081:80"
+    volumes:
+      - ${APP_DATA_DIR}/ui:/usr/share/nginx/html:ro
