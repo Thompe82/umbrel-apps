@@ -1,0 +1,10 @@
+id: bc2-mining
+name: BC2 Mining
+version: "1.0.0"
+description: Complete Bitcoin 2 mining stack with Node, Miningcore and UI.
+developer: Thompe82
+website: https://github.com
+dependencies: []
+repo: https://github.com/umbrel-apps
+support: https://github.com/umbrel-apps/issues
+port: 8081
