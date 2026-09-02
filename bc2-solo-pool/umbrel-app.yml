@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: bc2-solo-pool
+category: bitcoin
+name: BC2Forge
+version: "1.0.0"
+tagline: BitcoinII node, mining and live statistics
+description: >-
+  Private dashboard for a local BitcoinII v31 node and two CKPool Solo
+  instances. Shows node, pool and worker statistics and provides protected
+  controls for starting and restarting the BC2 services.
+developer: Thomas
+website: https://bitcoinii.com
+dependencies: []
+repo: https://bitbucket.org/ckolivas/ckpool
+support: https://bitbucket.org/ckolivas/ckpool
+port: 2345
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+icon: http://umbrel.local:2345/icon.svg
+releaseNotes: Initial private BC2Forge dashboard.
