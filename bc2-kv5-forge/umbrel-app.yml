@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: bc2-kv5-forge
+category: bitcoin
+name: KV5Forge
+version: "1.0.0"
+tagline: KVANTA5 node, solo mining and live statistics
+description: >-
+  Private dashboard for a local KVANTA5 Core node and two CKPool Solo
+  instances. Shows node, pool, worker, share and found-block statistics
+  with protected controls for managing the KV5 services.
+developer: Thomas
+website: https://kvanta5.org
+dependencies: []
+repo: https://github.com/Kvanta-Organization/Kvanta5-Core
+support: https://github.com/Kvanta-Organization/Kvanta5-Core/issues
+port: 2355
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+icon: http://umbrel.local:2355/icon.png
+releaseNotes: Initial private KV5Forge dashboard.
