@@ -2,7 +2,7 @@ manifestVersion: 1
 id: bc2-kv5-forge
 category: bitcoin
 name: KV5Forge
-version: "1.0.0"
+version: "1.0.1"
 tagline: KVANTA5 node, solo mining and live statistics
 description: >-
   Private dashboard for a local KVANTA5 Core node and two CKPool Solo
@@ -18,5 +18,5 @@ gallery: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-icon: http://umbrel.local:2355/icon.png
+icon: https://raw.githubusercontent.com/Thompe82/umbrel-apps/main/bc2-kv5-forge/icon.png
 releaseNotes: Initial private KV5Forge dashboard.

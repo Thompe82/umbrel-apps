@@ -2,7 +2,7 @@ manifestVersion: 1
 id: bc2-solo-pool
 category: bitcoin
 name: BC2Forge
-version: "1.0.0"
+version: "1.0.1"
 tagline: BitcoinII node, mining and live statistics
 description: >-
   Private dashboard for a local BitcoinII v31 node and two CKPool Solo
@@ -18,5 +18,5 @@ gallery: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-icon: http://umbrel.local:2345/icon.svg
+icon: https://raw.githubusercontent.com/Thompe82/umbrel-apps/main/bc2-solo-pool/icon.png
 releaseNotes: Initial private BC2Forge dashboard.
