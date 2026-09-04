@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: bc3-forge
+category: bitcoin
+name: BC3Forge
+version: "1.0.0"
+tagline: BitcoinIII node and SHA3-256t solo mining
+description: >-
+  Private dashboard for a local BitcoinIII Core node and a seven-GPU
+  SHA3-256t Octominer. Shows live node, network, hashrate, GPU,
+  temperature, power, cooling, probability and found-block statistics.
+developer: Thomas
+website: https://bc3.network
+dependencies: []
+repo: https://github.com/PinkStarrySky/BitcoinIII-Core
+support: https://github.com/PinkStarrySky/BitcoinIII-Core/issues
+port: 2365
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+icon: https://raw.githubusercontent.com/Thompe82/umbrel-apps/main/bc3-forge/icon.png
+releaseNotes: Initial private BC3Forge dashboard.
