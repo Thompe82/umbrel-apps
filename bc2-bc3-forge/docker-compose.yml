@@ -3,9 +3,9 @@ version: '3.7'
 services:
   app_proxy:
     environment:
-      APP_HOST: bc3-forge_dashboard_1
+      APP_HOST: bc2-bc3-forge_dashboard_1
       APP_PORT: 3000
-    container_name: bc3-forge_app_proxy_1
+    container_name: bc2-bc3-forge_app_proxy_1
 
   dashboard:
     image: >-
@@ -15,4 +15,4 @@ services:
     volumes:
       - /run/bc3-dashboard:/run/bc3-dashboard
       - /home/umbrel/bc3-dashboard/nginx.conf:/etc/nginx/nginx.conf:ro
-    container_name: bc3-forge_dashboard_1
+    container_name: bc2-bc3-forge_dashboard_1

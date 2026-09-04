@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: bc3-forge
+id: bc2-bc3-forge
 category: bitcoin
 name: BC3Forge
 version: "1.0.0"
@@ -18,5 +18,5 @@ gallery: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-icon: https://raw.githubusercontent.com/Thompe82/umbrel-apps/main/bc3-forge/icon.png
+icon: https://raw.githubusercontent.com/Thompe82/umbrel-apps/main/bc2-bc3-forge/icon.png
 releaseNotes: Initial private BC3Forge dashboard.
